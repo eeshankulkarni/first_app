@@ -1,0 +1,53 @@
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Arial, sans-serif;
+  background: radial-gradient(circle at top, #2f4f9b, #111a38 60%);
+  color: #f8f8f8;
+}
+
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.hud h1 {
+  margin: 0 0 10px;
+  font-size: 1.7rem;
+}
+
+.hud p {
+  margin: 8px 0 14px;
+  color: #e0e0e0;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-weight: 700;
+}
+
+.stats span {
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 999px;
+  padding: 6px 12px;
+}
+
+#game {
+  width: 100%;
+  max-width: 960px;
+  border: 4px solid #0e1327;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+  background: linear-gradient(#78c5ff 0 70%, #52a05b 70% 100%);
+}

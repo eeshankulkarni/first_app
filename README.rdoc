@@ -1,28 +1,23 @@
-== README
+== Mini Mario (Standalone Web Version)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A browser-playable Mario-style mini game is available as static files, so it does not depend on Ruby/Rails runtime compatibility.
 
-Things you may want to cover:
+=== Where to play
 
-* Ruby version
+* Open +public/mario/index.html+ directly in your browser, or
+* Serve the +public+ directory and visit +/mario/index.html+.
 
-* System dependencies
+Example with Python:
 
-* Configuration
+  cd public
+  python3 -m http.server 8000
 
-* Database creation
+Then open:
 
-* Database initialization
+  http://localhost:8000/mario/index.html
 
-* How to run the test suite
+=== Controls
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Left/Right arrows (or A/D): move
+* Space / Up (or W): jump
+* R: restart
